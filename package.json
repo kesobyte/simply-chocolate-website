@@ -1,0 +1,24 @@
+{
+  "name": "simply-chocolate-website",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://kesobyte.github.io/simply-chocolate-website/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /simply-chocolate-website/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kesobyte/simply-chocolate-website.git"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
