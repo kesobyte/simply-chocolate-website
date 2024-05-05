@@ -31,6 +31,7 @@
   line-height: 20px; /* 111.111% */
   letter-spacing: -0.54px;
   margin-right: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-header:hover > .header-span {
@@ -52,6 +53,8 @@
   font-weight: 500;
   line-height: 16px; /* 114.286% */
   letter-spacing: -0.28px;
+  // Transition Effect
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-menu-list:hover {
@@ -74,6 +77,7 @@
 .nav-socmed svg {
   width: 24px; /* Adjust as needed */
   height: 24px; /* Adjust as needed */
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-socmed-link:hover {
