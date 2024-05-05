@@ -1,1 +1,21 @@
-// @import './example';
+@import './navigation-menu';
+
+$button-color: #fd9222;
+$button-color-hover: #fcf1e0;
+$primary-black: #111;
+$secondary-black: #1e1823;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
